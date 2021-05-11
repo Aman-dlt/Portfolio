@@ -69,6 +69,10 @@ text-align:right;
  .hero-heading
  {
      color:var(--darkgrey);
+     text-align:center;
+ }
+ .hero-heading span{
+     color:var(--primary-color)
  }
  .section {
      padding:2rem;
@@ -90,5 +94,5 @@ footer .links {
    
 }
 footer ul {
-    padding-inline-start: 0px;
+    padding-inline-start: 0px;  
 }
