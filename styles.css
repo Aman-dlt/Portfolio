@@ -2,7 +2,8 @@
 :root {
     --primary-color:#bc8243;
     --darkgrey:#9CA3AF;
-    --offwhite:#FDF2F8    ;
+    --offwhite:#FDF2F8  ;
+    --fontcolor:#DC2626;
 
 }
 body {
@@ -30,11 +31,20 @@ hr{
     border-radius:0.5rem;
     color:white;
 }
+.primary-links:hover{
+    background-color: white;
+    color: var(--fontcolor);
+    border:1px solid var(--primary-color)
+}
 
 .secondary-link {
     color: var(--primary-color);
     border-radius:0.5rem;
     border: 1px solid var(--primary-color);
+}
+.secondary-link:hover{
+    background-color: var(--primary-color);
+    color:white;
 }
  .non-bullet  {
      list-style:none;
