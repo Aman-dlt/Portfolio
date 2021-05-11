@@ -21,6 +21,7 @@ hr{
  .links { 
      text-decoration:none;
      padding: 0.5rem 1rem;
+     
  }
 .primary-links
 {
@@ -39,4 +40,20 @@ hr{
  .list-inline {
     display:inline;
     padding:0rem 0.5rem;
+ }
+ .navbar {
+     background-color:var(--primary-color);
+     color:white;
+     padding:1rem;
+     border-bottom-left-radius: 1rem;
+ }
+ .navbar .navbrand {
+    font-weight:bold;
+ }
+ .navbar .nav-pills{
+text-align:right;
+ }
+.navbar .links { 
+     color:white;
+     
  }
