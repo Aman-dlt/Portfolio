@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root {
     --primary-color:rgb(185, 100, 235);
+    --darkgrey:#9CA3AF;
+    --offwhite:#f3f4f6;
+
 }
 body {
-background-color:rgb(248,248,255)
-;
-font-family: 'Roboto', sans-serif;   
+background-color:rgb(248,248,255);
+font-family: 'Roboto', sans-serif;
 }
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 .container-center { 
     max-width:600px; 
@@ -57,3 +58,37 @@ text-align:right;
      color:white;
      
  }
+.hero{
+    padding:2rem;
+}
+ .hero-img{
+     max-width:350px;
+     display:block;
+     margin:auto;
+ }
+ .hero-heading
+ {
+     color:var(--darkgrey);
+ }
+ .section {
+     padding:2rem;
+ }
+.section h1 {
+ text-align:center;
+ 
+}
+.offw {
+    background-color:var(--offwhite);
+}
+footer {
+    background-color:var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+}
+footer .links {
+ color:white;  
+   
+}
+footer ul {
+    padding-inline-start: 0px;
+}
