@@ -1,2 +1,2 @@
 # portweb
-## This is a portfolia attempt with a component library in it.
+## This is a portfolio attempt with a component library in it.
