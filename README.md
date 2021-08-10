@@ -1,2 +1,2 @@
 # portweb
-## this component library consist all the components to learn HTML.
+## This is a portfolia attempt with a component library in it.
